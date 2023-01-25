@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.project__header{
+  background-color: rgb(32, 32, 32);
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 100%;
+}
+
+.project__header > img{
+  width: 220px;
+}
+
+.project__button-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.project__button-container > button{
+  background-color: transparent;
+  width: 80px;
+  height: 32px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+.project__button-container > button:hover{
+  border-bottom: 2px solid #000;
+}
