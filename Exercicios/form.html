@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Brincando com Form</title>
+</head>
+
+<body>
+  <form action="https://www.example.com">
+    <h2>Cadastro da Liga dos Astronautas</h2>
+    <div>
+      <label for="name">Nome</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <br>
+    <div>
+      <label for="q">Email</label>
+      <input type="email" id="email" name="email" required>
+      <label for="q">Senha</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <br>
+    <div>
+      <label for="q">Data de Nascimento</label>
+      <input type="date" id="dtNasc" name="dtNasc" required>
+      <label for="q">Foto</label>
+      <input type="file" id="photo" name="photo" required>
+    </div>
+    <br>
+    <div>
+      <label for="q">Nacionalidade</label>
+      <select name="nascionality" id="nascionality">
+        <option value="russo">Russo</option>
+        <option value="americano">Americano</option>
+        <option value="brasileiro" selected>Brasileiro</option>
+      </select>
+      <label for="q" id="gender" name="gender">Gênero</label>
+      <input type="radio" name="gender" id="fem">M</input>
+      <input type="radio" name="gender" id="masc">F</input>
+    </div>
+    <br>
+    <div>
+      <label for="q">Principais Qualidades</label>
+      <input type="checkbox" name="inteligencia">Inteligência</input>
+      <input type="checkbox" name="fisico">Preparo físico</input>
+      <input type="checkbox" name="res">Resiliencia</input>
+      <input type="checkbox" name="edu">Educação</input>
+    </div>
+    <br>
+    <div>
+      <textarea placeholder="Por que você gostaria de ser astronauta?" name="description" cols="30"
+        rows="10"></textarea>
+    </div>
+    <br>
+    <div>
+      <input type="submit" Criar>
+    </div>
+  </form>
+</body>
+
+</html>
